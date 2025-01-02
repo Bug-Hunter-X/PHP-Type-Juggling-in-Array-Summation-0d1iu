@@ -1,0 +1,1 @@
+This repository demonstrates a common yet subtle error in PHP: type juggling during array summation. The `calculateSum` function, when provided an array containing a string element, will produce an unexpected result due to PHP's loose type system. The solution illustrates how to mitigate this issue using strict type checking or type casting.
